@@ -12,6 +12,18 @@ Rails.application.routes.draw do
   get 'legacy-the-technomage-archive-book-3' => "pages#legacy"
   get 'legacy' => 'pages#legacy'
   
+  get 'nimbus' => 'pages#nimbus'
+  get 'nimbus-a-steampunk-novel' => 'pages#nimbus'
+  get 'nimbus-a-steampunk-novel-part-one-free' => 'pages#nimbus'
+  get 'a-new-day' => 'pages#a-new-day'
+  get 'a-new-day-a-technomage-archive-novella' => 'pages#a-new-day'
+  get 'stratus-part-1' => 'pages#stratus-part-1'
+  get 'stratus' => 'pages#stratus-part-1'
+  get 'stratus-a-steampunk-novel-part-one' => 'pages#stratus-part-1'
+  get 'working-retail' => 'pages#working-retail'
+  get 'working-retail-zombie-short-story' => 'pages#working-retail'
+  get 'sam-and-ash' => 'pages#sam-and-ash'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

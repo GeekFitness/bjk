@@ -1,26 +1,23 @@
-<header class="navbar navbar-fixed-top navbar-default">
-    <div class="container">
-      <%= link_to "BJ Keeton, Author", root_path, class: "btn btn-large btn-custom", id: "logo" %>
-          <div class="nav_item">
-            <%= link_to "About", "", class: "btn btn-default btn-custom" %>
-            <%= link_to "Free Stuff!", "", class: "btn btn-default btn-custom" %>
-            <%= link_to "Contact", "", class: "btn btn-default btn-custom" %>
-          </div>
-        <div class="nav_item">
-          <li class = "dropdown">
-            <%= link_to "My Books!", "", class: "btn btn-default btn-custom dropdown-toggle", "data-toggle" => "dropdown" %>
-              <ul class = "dropdown-menu">
-                  <li><%= link_to "Boogers", "" %></li>
-                  <li><%= link_to "Poop", "" %></li>
-                  <li><%= link_to "Donuts", "" %></li>
-            </li>
-              </ul>
-        </div>
-          <div class="nav_item">
-            <%= link_to "Join My Email List!", "", class: "btn btn-large btn-info" %>
-          </div>
-          
 
-        
-    </div>
+
+<header class="navbar navbar-fixed-top navbar-default">
+  <div class="container">
+    <%= link_to "B.J. Keeton, Author", root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-left">
+        <li><%= link_to "About", '#' %></li>
+        <li><%= link_to "Free Stuff!", '#' %></li>
+        <li><%= link_to "Contact", '#' %></li>
+        <li class = "dropdown">
+          <%= link_to "My Books!", "", class: "dropdown-toggle", "data-toggle" => "dropdown" %>
+            <ul class = "dropdown-menu">
+              <li><%= link_to "Birthright", birthright_path %></li>
+              <li><%= link_to "Lineage", lineage_path %></li>
+              <li><%= link_to "Legacy", legacy_path %></li>
+        </li>
+            </ul>
+      <li><%= link_to "Get Email Updates!", root_path, class: "right", id: "logo" %></li>
+      </ul>
+    </nav>
+  </div>
 </header>

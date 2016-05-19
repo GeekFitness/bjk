@@ -23,6 +23,7 @@ $navbar-default-color: $light-orange;
   background-color: #c600ff;
   border-color: #c600ff;
   color: #fff;
+  margin-bottom: 5px;
 
 }
 
@@ -90,6 +91,10 @@ h1, h2, h3, h4 {
     line-height: 1;
 }
 
+p {
+    font-size: 1.25em;
+}
+
 h1 {
     font-size: 3em;
     letter-spacing: -2px;
@@ -98,7 +103,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 30px;
     text-align: center;
     font-weight: normal;
@@ -145,6 +150,28 @@ span.picture {
 }
 
 .thumbnail-book {
-     max-width: 300px;
-     max-height: 150px;
- }
+    max-height: 560;
+    max-width: 350;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+#audiobook {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 9px;
+    font-weight: bold;
+    width: 700px;
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+}
+
+#newsletter {
+    margin-bottom: 5px;
+}
