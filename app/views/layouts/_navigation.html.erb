@@ -1,23 +1,34 @@
-
-
-<header class="navbar navbar-fixed-top navbar-default">
-  <div class="container">
-    <%= link_to "B.J. Keeton, Author", root_path, id: "logo" %>
-    <nav>
-      <ul class="nav navbar-nav navbar-left">
-        <li><%= link_to "About", '#' %></li>
-        <li><%= link_to "Free Stuff!", '#' %></li>
-        <li><%= link_to "Contact", '#' %></li>
-        <li class = "dropdown">
-          <%= link_to "My Books!", "", class: "dropdown-toggle", "data-toggle" => "dropdown" %>
-            <ul class = "dropdown-menu">
-              <li><%= link_to "Birthright", birthright_path %></li>
-              <li><%= link_to "Lineage", lineage_path %></li>
-              <li><%= link_to "Legacy", legacy_path %></li>
-        </li>
-            </ul>
-      <li><%= link_to "Get Email Updates!", root_path, class: "right", id: "logo" %></li>
-      </ul>
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"> <%= link_to "B.J. Keeton, Author", root_path, id: "logo" %></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><li><%= link_to "Home", root_path %></li></li>
+            <li><%= link_to "About", '#' %></li>
+            <li><%= link_to "Free Stuff!", '#' %></li>
+            <li><%= link_to "Contact", '#' %></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">The Technomage Archive</li>
+                  <li><%= link_to "Birthright, Book 1", birthright_path %></li>
+                  <li><%= link_to "Lineage, Book 2", lineage_path %></li>
+                  <li><%= link_to "Legacy, Book 3", legacy_path %></li>
+                  <li><%= link_to "A New Day, (Prequel Novellette)", a_new_day_path %></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"> <%= link_to "Get Email Updates!", "http://www.bjkeeton.com/newsletter" %><span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
-  </div>
-</header>
