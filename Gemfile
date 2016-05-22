@@ -16,6 +16,7 @@ gem 'fog'
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
 gem 'bcrypt', '~> 3.1.7'
+gem 'font-awesome-rails', '~> 4.6', '>= 4.6.2.0'
 
 
 group :development, :test do
