@@ -14,7 +14,8 @@ Rails.application.routes.draw do
   
   get 'nimbus' => 'pages#nimbus'
   get 'nimbus-a-steampunk-novel' => 'pages#nimbus'
-  get 'nimbus-a-steampunk-novel-part-one-free' => 'pages#nimbus'
+  get 'nimbus-a-steampunk-novel-part-one-free' => 'pages#nimbus-part-1'
+  get "nimbus-part-1" => 'pages#nimbus-part-1'
   get 'a-new-day' => 'pages#a-new-day'
   get 'a-new-day-a-technomage-archive-novella' => 'pages#a-new-day'
   get 'stratus-part-1' => 'pages#stratus-part-1'
@@ -23,6 +24,8 @@ Rails.application.routes.draw do
   get 'working-retail' => 'pages#working-retail'
   get 'working-retail-zombie-short-story' => 'pages#working-retail'
   get 'sam-and-ash' => 'pages#sam-and-ash'
+  
+  get 'newsletter' => 'pages#newsletter'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

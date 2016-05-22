@@ -1,22 +1,33 @@
 <%= render 'layouts/navigation' %>
 
+<h1><em>Lineage, The Technomage Archive (Book 2)</em></h1>
 
-<div class="center container">
-
-
-    <div class="row">
-        <div class="col-sm-4 thumbnail"><%= link_to image_tag("BIRTHRIGHT_Cover.jpg", class: "img-fluid"), birthright_path %></div>
-        <div class="col-sm-4 thumbnail"><%= link_to image_tag("LINEAGE_Cover.jpg", class: "img-fluid"), lineage_path %></div>
-        <div class="col-sm-4 thumbnail"><%= link_to image_tag("LEGACY_Cover.jpg", class: "img-fluid"), legacy_path%></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-4 thumbnail"><%= link_to image_tag("A_NEW_DAY_Cover.jpg", class: "img-fluid"), birthright_path %></div>
-        <div class="col-sm-4 thumbnail"><%= link_to image_tag("WORKING_RETAIL_Cover.jpg", class: "img-fluid"), lineage_path %></div>
-        <div class="col-sm-4 thumbnail"><%= link_to image_tag("SAM_AND_ASH_Cover.png", class: "img-fluid"), legacy_path%></div>
-    </div>
-    <div class="row">
-        <div class="col-sm-4 thumbnail"><%= link_to image_tag("NIMBUS_P1_Cover.jpg", class: "img-fluid"), birthright_path %></div>
-        <div class="col-sm-4 thumbnail"><%= link_to image_tag("NIMBUS_Cover.jpg", class: "img-fluid"), lineage_path %></div>
-        <div class="col-sm-4 thumbnail"><%= link_to image_tag("STRATUS_P1_Cover.jpg", class: "img-fluid"), legacy_path%></div>
-    </div>
-</div>
+<div class='container'>
+  
+  <div class="row">
+    <div class="center col-md-4 thumbnail"><%= image_tag("LINEAGE_Cover.jpg", class: "img-fluid") %></div>
+      <div class="col-md-8">
+            <h2>THE TECHNOMAGE ARCHIVE is an epic fantasy trilogy set in a science-fiction world.</h2>
+            <p>Ennd’s Academy is under attack. Ceril Bain is on the run, only a day after waking up from a coma and learning that his arm and leg have been ripped off. With terrorists killing everyone around them, Ceril’s team barely escape with their lives. They go to the only place they think they can get some answers--Ceril’s grandfather’s house. </p>
+            <p>While there, an energy storm forms in the garden where Ceril found his Flameblade over six years ago. Instead of being torn apart by the storm, however, Ceril and his team are transported back to Jaronya, the toxic Instance that almost killed them all three months before. </p>
+            <p>This time around, though, Ceril and the others are helped by a friendly angel named Watcher. Despite this advantage, they are kidnapped and imprisoned by creatures known as Wardens and come face to face with a sentient city named Helia. </p>
+            <p>All the while, Ceril’s grandfather--now using his real name of Damien Vennar--is having quite an adventure of his own. After having his home invaded and his book of secrets stolen, he had gone to Ennd’s Academy to find some answers. While there, he discovered the new headmaster was in league with a man who has stolen his former identity: that of a legendary demigod known as the Untouchable. </p>
+            <p>As he continues on his quest for answers, Damien discovers just how much he has changed over the years. Once a ruthless demigod with the power to create universes, he has spent the past five hundred years learning how to be an ordinary man. Damien Vennar now must decide who he wants to be: the all-powerful Untouchable of legend or the kind-hearted and soft-spoken Gramps of Ceril’s childhood. </p>
+            <p>Either way, Damien and Ceril’s lives will never be the same again. </p>
+                <p>&nbsp;</p>
+            <div class="col-md-offset-3 container"><%= link_to "Listen to the Audiobook for Free!", 'http://www.audible.com/pd/Sci-Fi-Fantasy/Lineage-Audiobook/B01ETT1PGU/', class: "btn btn-lg btn-warning" %></div>
+      </div>
+  </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Lineage can be purchased at any of the following retailers: </h2>
+        </div>
+      </div>
+      <div class="center row">
+        <div class="col-md-3"><%= link_to "Amazon Kindle", 'http://www.amazon.com/dp/B00H5CR6NA', class: "btn btn-lg btn-info" %></div>
+        <div class="col-md-3"><%= link_to "Barnes & Noble", 'http://www.barnesandnoble.com/w/lineage-bj-keeton/1121998272', class: "btn btn-lg btn-success" %></div>
+        <div class="col-md-3"><%= link_to "Kobo", 'https://store.kobobooks.com/en-US/ebook/lineage-8', class: "btn btn-lg btn-warning" %></div>
+        <div class="col-md-3"><%= link_to "iTunes", 'https://itunes.apple.com/us/book/id998356320', class: "btn btn-lg btn-info" %></div>
+        </div>
+  </div>
+  
