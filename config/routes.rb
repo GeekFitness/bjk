@@ -26,6 +26,10 @@ Rails.application.routes.draw do
   get 'sam-and-ash' => 'pages#sam-and-ash'
   
   get 'newsletter' => 'pages#newsletter'
+  get 'free-stuff' => 'pages#free-stuff'
+  get 'about' => 'pages#about'
+  get 'contact' => 'pages#contact'
+  
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

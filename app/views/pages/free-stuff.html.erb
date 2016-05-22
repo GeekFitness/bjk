@@ -1,0 +1,15 @@
+<%= render 'layouts/navigation' %>
+<% @title = "Free Stuff!" %>
+
+    <div class="center container">
+    
+    <h1><em>Free Stuff!</em></h1>
+    <p class="center">Want to read more of my stuff? But want to do it entirely for free? I got you covered! Just click the image, and you'll get all the links to where you can download the awesomeness. You're welcome.</p>
+    
+    <div class="row">
+        <div class="col-sm-4 thumbnail"><%= link_to image_tag("BIRTHRIGHT_Cover.jpg", class: "img-fluid"), birthright_path %></div>
+        <div class="col-sm-4 thumbnail"><%= link_to image_tag("NIMBUS_P1_Cover.jpg", class: "img-fluid"), nimbus_part_1_path %></div>
+        <div class="col-sm-4 thumbnail"><%= link_to image_tag("WORKING_RETAIL_Cover.jpg", class: "img-fluid"), working_retail_path%></div>
+    </div>
+    
+    </div>

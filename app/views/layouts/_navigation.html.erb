@@ -12,9 +12,9 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><li><%= link_to "Home", root_path %></li></li>
-            <li><%= link_to "About", '#' %></li>
-            <li><%= link_to "Free Stuff!", '#' %></li>
-            <li><%= link_to "Contact", '#' %></li>
+            <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Free Stuff!", free_stuff_path %></li>
+            <li><%= link_to "Contact", contact_path %></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Books!<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -34,7 +34,7 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><%= link_to "Get Email Updates!", "http://eepurl.com/U3i2X" %><span class="sr-only">(current)</span></a></li>
+            <li class="active"><%= link_to "Get Email Updates!", newsletter_path %><span class="sr-only"></span></a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
