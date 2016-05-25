@@ -1,7 +1,5 @@
 $navbar-default-bg: #000;
-$light-orange: #ff8c00;
-$navbar-default-color: $light-orange;
-
+$navbar-default-link-color: #fff;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -30,12 +28,10 @@ $navbar-default-color: $light-orange;
 
 a.btn-custom {
   color: #fff;
-
 }
 
 a:visited.btn-custom {
   color: #fff;
-
 }
 
 a:hover.btn-custom {
@@ -180,3 +176,4 @@ span.picture {
 body {
     margin-bottom: 80px;
 }
+
