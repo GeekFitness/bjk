@@ -1,5 +1,6 @@
 $navbar-default-bg: #000;
 $navbar-default-link-color: #fff;
+$navbar-right-link-color: #fff;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -170,10 +171,14 @@ span.picture {
 }
 
 #newsletter {
-    margin-bottom: 5px;
+    font-size: 2em;
 }
 
 body {
     margin-bottom: 80px;
 }
 
+#footer-icon {
+    font-size: 2em;
+    color: #fff;
+}
