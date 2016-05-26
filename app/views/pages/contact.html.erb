@@ -1,3 +1,24 @@
 <%= render 'layouts/navigation' %>
 <% @title = "Contact" %>
 <%= render 'layouts/footer' %>
+
+<h1>Where you can find me!</h1>
+
+  
+<div class="container">
+  <div class="row">
+  <div class="center col-sm-4 thumbnail"><%= image_tag("BJK.jpg", class: "img-fluid") %></div>
+  <div class="col-sm-8">
+    <p>I may be a little bit of an internet junkie. I'm pretty much everywhere. If you want to find me, the list below is a pretty decent place to start.</p>
+    
+          <li class="col-xs-2"><%= link_to "Facebook", "http://www.facebook.com/geekfitnessnet" %></li>
+          <li class="col-xs-2"><%= link_to "Twitter", "http://twitter.com/professorbeej" %></li>
+          <li class="col-xs-2"><%= link_to "Google+", "https://plus.google.com/+BJKeeton" %></li>
+          <li class="col-xs-2"><%= link_to "Instagram", "http://www.instagram.com/geekfitness_" %></li>
+          <li class="col-xs-2"><%= link_to "Pinterest", "http://www.pinterest.com/geekfitness" %></li>
+          <li class="col-xs-2"><%= link_to "YouTube", "http://www.youtube.com/geekfitness" %></li>
+    
+    <p>And because of all that geekery and awesomeness, I'm a podcaster, too. You can hear me co-host <%= link_to "the Geek to Geek Podcast", "itunes.apple.com/us/podcast/geek-to-geek-podcast/id1092737489" %> and the host of <%= link_to "the Geek Fitness Health Hacks", "http://www.geekfitness.com" %> podcast. If you can't get enough of me though my books, these shows should keep you Beejified. #didijustsaythat?</p>
+  </div>
+  </div>
+  </div>

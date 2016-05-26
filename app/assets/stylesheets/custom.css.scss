@@ -147,13 +147,6 @@ span.picture {
     }
 }
 
-.thumbnail-book {
-    max-height: 560;
-    max-width: 350;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 5px;
-}
 
 #audiobook {
     margin-top: 10px;
@@ -181,4 +174,13 @@ body {
 #footer-icon {
     font-size: 2em;
     color: #fff;
+}
+
+.btn-info {
+    margin-bottom: 5px;
+}
+
+.contact-list {
+    font-size: 1.2em;
+    font-weight: bold;
 }
