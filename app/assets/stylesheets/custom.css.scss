@@ -184,3 +184,12 @@ body {
     font-size: 1.2em;
     font-weight: bold;
 }
+
+ .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #000;
+    color: #c600ff;
+}
+
+a {
+    color: #c600ff;
+}

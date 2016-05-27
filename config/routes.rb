@@ -28,7 +28,7 @@ Rails.application.routes.draw do
   get 'newsletter' => 'pages#newsletter'
   get 'free-stuff' => 'pages#free-stuff'
   get 'about' => 'pages#about'
-  get 'contact' => 'pages#contact'
+  get 'contact' => 'pages#about'
   
   
   # The priority is based upon order of creation: first created -> highest priority.
